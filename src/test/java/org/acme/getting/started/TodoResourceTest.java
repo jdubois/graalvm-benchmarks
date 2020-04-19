@@ -14,8 +14,7 @@ public class TodoResourceTest {
         given()
           .when().get("/todo")
           .then()
-             .statusCode(200)
-             .body(is("hello"));
+             .statusCode(200);
     }
 
 }
